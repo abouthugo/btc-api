@@ -1,0 +1,22 @@
+{
+  "name": "btc-api",
+  "version": "1.0.0",
+  "description": "A simple API for the BTC website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm -r dotenv/config index.js",
+    "dev": "nodemon -r esm -r dotenv/config index.js"
+  },
+  "author": "Hugo Perdomo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "dotenv": "^7.0.0",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "helmet": "^3.16.0",
+    "mongoose": "^5.5.2",
+    "uniqid": "^5.0.3"
+  }
+}
